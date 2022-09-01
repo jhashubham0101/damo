@@ -1,0 +1,33 @@
+git remote set-url origin git@github.com:jhashubham0101/damo.git
+
+git remote set-url origin git@github.com:jhashubham339/damo.git
+You12:05
+$ git push -u origin master
+remote: Permission to jhashubham339/damo.git denied to jhashubham0101.
+fatal: unable to access 'https://github.com/jhashubham339/damo.git/': The requested URL returned error: 403
+Dheeraj Mishra12:08
+For Windows
+click on window button > credential manager > Windows credentials > Generic credentials
+
+Next, remove or edit the Github keys.
+Dheeraj Mishra12:15
+git config --list
+Dheeraj Mishra12:16
+git config user.name "Your Name Here"
+git config user.email your@email.example
+Dheeraj Mishra12:19
+Global user:git config --global user.name
+Local user: git config user.name
+Dheeraj Mishra12:29
+git config --global --edit
+~/.gitconfig
+Dheeraj Mishra12:33
+git config  --unset user.name
+Dheeraj Mishra12:48
+git remote set-url origin git://new.url.here
+
+git remote set-url origin git@github.com:jhashubham0101/damo.git // for switch the account
+
+
+jhashubham0101
+Kalpita0101
